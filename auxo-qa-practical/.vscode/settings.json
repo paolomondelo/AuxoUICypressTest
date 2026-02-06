@@ -1,0 +1,11 @@
+{
+  "cucumberautocomplete.steps": [
+    "cypress/support/step_definitions/**/*.ts",
+    "auxo-qa-practical/cypress/support/step_definitions/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": [
+    "cypress/e2e/features/**/*.feature",
+    "auxo-qa-practical/cypress/e2e/features/**/*.feature"
+  ],
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
