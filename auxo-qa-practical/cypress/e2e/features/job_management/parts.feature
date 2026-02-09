@@ -3,7 +3,7 @@ Feature: Parts Management
   Background:
     Given I navigate to the Parts List page
 
-  @parts @smoke
+  @parts @smoke @regression
   Scenario: Merge two parts successfully
     When I click the New Part button on the Parts List
     And I create parts info for Parts A and submit it
