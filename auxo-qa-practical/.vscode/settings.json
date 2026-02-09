@@ -1,19 +1,20 @@
 {
   "cucumberautocomplete.steps": [
-    "cypress/support/step_definitions/**/*.ts"
-  ],
-  "cucumberautocomplete.syncfeatures": [
-    "cypress/e2e/features/**/*.feature"
-  ],
-  "cucumberautocomplete.strictGherkinCompletion": true
-{
-  "cucumberautocomplete.steps": [
+    "cypress/support/step_definitions/**/*.ts",
     "**/cypress/support/step_definitions/**/*.ts"
   ],
   "cucumberautocomplete.syncfeatures": [
+    "cypress/e2e/features/**/*.feature",
     "**/cypress/e2e/features/**/*.feature"
   ],
   "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.gherkinDefinitionPart": [
+    "Given",
+    "When",
+    "Then",
+    "And",
+    "But"
+  ],
   "files.associations": {
     "*.feature": "cucumber"
   }
